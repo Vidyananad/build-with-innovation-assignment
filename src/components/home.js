@@ -60,8 +60,8 @@ const handleOnClick2 =()=>{
         </center>
         </div>
         <label htmlFor='filter'>Filter by Price:</label>
-        <button type="button" className='button' onClick={handleOnClick}>Price{'>'}100</button>
-        <button type="button" className='button' onClick={handleOnClick2}>Price{'<'}100</button>
+        <button type="button" className='button' onClick={handleOnClick}>Price{'>'}$100</button>
+        <button type="button" className='button' onClick={handleOnClick2}>Price{'<'}$100</button>
         <center>
           <div>
               <label htmlFor='search'>Search product: </label>
