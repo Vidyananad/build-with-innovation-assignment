@@ -44,11 +44,11 @@ const Login = () => {
         <h1>Login Page</h1>
         <div>
           <label htmlFor="username">UserName: </label>
-          <input type="text" name="username" onChange={handleOnChange} placeholder="Type your name" value={username} />
+          <input type="text" name="username" onChange={handleOnChange} placeholder="Type your name as kminchelle" value={username} />
         </div>
         <div>   
           <label htmlFor="password">Password: </label>
-          <input type="text" name="password" onChange={handleOnChange} placeholder="Type User password" value={password} />
+          <input type="text" name="password" onChange={handleOnChange} placeholder="Type User password as 0lelplR" value={password} />
         </div>
         <button onClick={handleLogin}>Login</button>
     </div>
